@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "name": "at3",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ua1",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ua2",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Container1",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Container2",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "at2",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "PC1",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "at1",
+      "type": "UA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "Container1",
+      "target": "PC1"
+    },
+    {
+      "source": "at2",
+      "target": "Container2"
+    },
+    {
+      "source": "at1",
+      "target": "Container1"
+    },
+    {
+      "source": "at3",
+      "target": "Container2"
+    },
+    {
+      "source": "Container2",
+      "target": "PC1"
+    },
+    {
+      "source": "at3",
+      "target": "Container1"
+    },
+    {
+      "source": "ua1",
+      "target": "PC1"
+    },
+    {
+      "source": "ua2",
+      "target": "PC1"
+    }
+  ],
+  "associations": [
+    {
+      "source": "ua1",
+      "target": "Container1",
+      "operations": [
+        "ar1"
+      ]
+    },
+    {
+      "source": "ua2",
+      "target": "Container1",
+      "operations": [
+        "ar2"
+      ]
+    },
+    {
+      "source": "ua1",
+      "target": "Container2",
+      "operations": [
+        "ar1"
+      ]
+    },
+    {
+      "source": "ua2",
+      "target": "Container2",
+      "operations": [
+        "ar2"
+      ]
+    }
+  ]
+}

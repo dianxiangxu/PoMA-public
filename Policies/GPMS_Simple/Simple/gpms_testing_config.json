@@ -1,0 +1,220 @@
+{
+  "nodes": [
+    {
+      "name": "SPElegible",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "tenureTrackTenured",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "tenure-track",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "CoPIElegible",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "ProposalCreation",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "tenured",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "createPDS",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "teaching",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "PIElegible",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "readPDS",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "research",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "faculty",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "writePDS",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "clinical",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "non-tenure-track",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    },
+    {
+      "name": "adjunct",
+      "type": "UA",
+      "properties": {
+        "isVisited": "yes"
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "source": "CoPIElegible",
+      "target": "ProposalCreation"
+    },
+    {
+      "source": "non-tenure-track",
+      "target": "SPElegible"
+    },
+    {
+      "source": "tenure-track",
+      "target": "tenureTrackTenured"
+    },
+    {
+      "source": "adjunct",
+      "target": "faculty"
+    },
+    {
+      "source": "readPDS",
+      "target": "ProposalCreation"
+    },
+    {
+      "source": "tenureTrackTenured",
+      "target": "PIElegible"
+    },
+    {
+      "source": "SPElegible",
+      "target": "ProposalCreation"
+    },
+    {
+      "source": "tenureTrackTenured",
+      "target": "faculty"
+    },
+    {
+      "source": "faculty",
+      "target": "ProposalCreation"
+    },
+    {
+      "source": "tenureTrackTenured",
+      "target": "SPElegible"
+    },
+    {
+      "source": "tenureTrackTenured",
+      "target": "CoPIElegible"
+    },
+    {
+      "source": "writePDS",
+      "target": "ProposalCreation"
+    },
+    {
+      "source": "tenured",
+      "target": "tenureTrackTenured"
+    },
+    {
+      "source": "clinical",
+      "target": "non-tenure-track"
+    },
+    {
+      "source": "non-tenure-track",
+      "target": "CoPIElegible"
+    },
+    {
+      "source": "non-tenure-track",
+      "target": "faculty"
+    },
+    {
+      "source": "research",
+      "target": "PIElegible"
+    },
+    {
+      "source": "createPDS",
+      "target": "ProposalCreation"
+    },
+    {
+      "source": "teaching",
+      "target": "non-tenure-track"
+    },
+    {
+      "source": "research",
+      "target": "non-tenure-track"
+    },
+    {
+      "source": "PIElegible",
+      "target": "ProposalCreation"
+    }
+  ],
+  "associations": [
+    {
+      "source": "tenured",
+      "target": "readPDS",
+      "operations": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "source": "PIElegible",
+      "target": "createPDS",
+      "operations": [
+        "create-oa",
+        "create-oa-to-oa"
+      ]
+    },
+    {
+      "source": "faculty",
+      "target": "writePDS",
+      "operations": [
+        "read",
+        "write"
+      ]
+    }
+  ]
+}

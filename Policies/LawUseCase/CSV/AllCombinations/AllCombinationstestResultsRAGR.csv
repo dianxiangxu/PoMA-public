@@ -1,0 +1,5 @@
+"MutantName","Test1","Test2","Test3","Test4","Test5","Test6","MutantKilled?"
+"RAGR1","Pass","Pass","Pass","Pass","Pass","Pass","No"
+"RAGR2","Pass","Pass","Pass","Pass","Pass","Pass","No"
+"RAGR3","Pass","Pass","Pass","Pass","Fail","Pass","Yes"
+"RAGR4","Pass","Pass","Pass","Pass","Pass","Fail","Yes"

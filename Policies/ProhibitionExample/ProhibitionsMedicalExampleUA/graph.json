@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "name": "MaximumCarePatients",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ModerateCarePatients",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ClassificationPolicyClass",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "RegisteredNurse",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Patient3",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Patient2",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Patient1",
+      "type": "UA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "Patient3",
+      "target": "MaximumCarePatients"
+    },
+    {
+      "source": "RegisteredNurse",
+      "target": "ClassificationPolicyClass"
+    },
+    {
+      "source": "ModerateCarePatients",
+      "target": "ClassificationPolicyClass"
+    },
+    {
+      "source": "Patient1",
+      "target": "MaximumCarePatients"
+    },
+    {
+      "source": "Patient3",
+      "target": "ModerateCarePatients"
+    },
+    {
+      "source": "MaximumCarePatients",
+      "target": "ClassificationPolicyClass"
+    },
+    {
+      "source": "Patient2",
+      "target": "ModerateCarePatients"
+    }
+  ],
+  "associations": [
+    {
+      "source": "RegisteredNurse",
+      "target": "MaximumCarePatients",
+      "operations": [
+        "access"
+      ]
+    },
+    {
+      "source": "RegisteredNurse",
+      "target": "ModerateCarePatients",
+      "operations": [
+        "access"
+      ]
+    }
+  ]
+}

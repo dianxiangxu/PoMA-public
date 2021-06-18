@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "name": "A1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "C-Suit",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Google",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "Apple",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "Alice",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "CasePolicy",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "Attorneys",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "LeadAttorneys",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "LA1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "C1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "Case3",
+      "type": "OA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "C-Suit",
+      "target": "LeadAttorneys"
+    },
+    {
+      "source": "Google",
+      "target": "Case3"
+    },
+    {
+      "source": "LeadAttorneys",
+      "target": "Attorneys"
+    },
+    {
+      "source": "A1",
+      "target": "Attorneys"
+    },
+    {
+      "source": "Case3",
+      "target": "CasePolicy"
+    },
+    {
+      "source": "Alice",
+      "target": "Case3"
+    },
+    {
+      "source": "LA1",
+      "target": "LeadAttorneys"
+    },
+    {
+      "source": "Apple",
+      "target": "Case3"
+    },
+    {
+      "source": "C1",
+      "target": "C-Suit"
+    },
+    {
+      "source": "Attorneys",
+      "target": "CasePolicy"
+    }
+  ],
+  "associations": [
+    {
+      "source": "LeadAttorneys",
+      "target": "Case3",
+      "operations": [
+        "disapprove",
+        "withdraw"
+      ]
+    },
+    {
+      "source": "Attorneys",
+      "target": "Case3",
+      "operations": [
+        "refuse",
+        "accept"
+      ]
+    }
+  ]
+}

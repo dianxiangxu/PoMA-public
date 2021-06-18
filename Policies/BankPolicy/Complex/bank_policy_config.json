@@ -1,0 +1,338 @@
+{
+	"nodes": [
+		{
+			"name": "u1",
+			"type": "U",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "u2",
+			"type": "U",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "u3",
+			"type": "U",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "u4",
+			"type": "U",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "l11",
+			"type": "O",
+			"properties": {}
+		},
+		{
+			"name": "l12",
+			"type": "O",
+			"properties": {}
+		},
+		{
+			"name": "a11",
+			"type": "O",
+			"properties": {}
+		},
+		{
+			"name": "a21",
+			"type": "O",
+			"properties": {}
+		},
+		{
+			"name": "teller",
+			"type": "UA",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "loan-officer",
+			"type": "UA",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "hq",
+			"type": "UA",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "data-steward",
+			"type": "UA",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "branch1",
+			"type": "UA",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "branch2",
+			"type": "UA",
+			"properties": {
+				"isVisited": "yes"
+			}
+		},
+		{
+			"name": "position-constraints",
+			"type": "PC",
+			"properties": {}
+		},
+		{
+			"name": "branch-constraints",
+			"type": "PC",
+			"properties": {}
+		},
+		{
+			"name": "loans",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "loans1",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "loans2",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "accounts",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "accounts1",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "accounts2",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "products",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "products1",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "products2",
+			"type": "OA",
+			"properties": {}
+		},
+		{
+			"name": "assets",
+			"type": "OA",
+			"properties": {}
+		}
+	],
+	"assignments": [
+		{
+			"source": "u1",
+			"target": "teller"
+		},
+		{
+			"source": "u1",
+			"target": "branch1"
+		},
+		{
+			"source": "u2",
+			"target": "teller"
+		},
+		{
+			"source": "u2",
+			"target": "branch1"
+		},
+		{
+			"source": "u2",
+			"target": "branch2"
+		},
+		{
+			"source": "u3",
+			"target": "loan-officer"
+		},
+		{
+			"source": "u3",
+			"target": "branch2"
+		},
+		{
+			"source": "u4",
+			"target": "hq"
+		},
+		{
+			"source": "u4",
+			"target": "data-steward"
+		},
+		{
+			"source": "l11",
+			"target": "loans1"
+		},
+		{
+			"source": "l12",
+			"target": "loans1"
+		},
+		{
+			"source": "a11",
+			"target": "accounts1"
+		},
+		{
+			"source": "a21",
+			"target": "accounts2"
+		},
+		{
+			"source": "teller",
+			"target": "position-constraints"
+		},
+		{
+			"source": "branch1",
+			"target": "branch-constraints"
+		},
+		{
+			"source": "branch2",
+			"target": "branch-constraints"
+		},
+		{
+			"source": "loan-officer",
+			"target": "position-constraints"
+		},
+		{
+			"source": "hq",
+			"target": "branch-constraints"
+		},
+		{
+			"source": "data-steward",
+			"target": "position-constraints"
+		},
+		{
+			"source": "loans1",
+			"target": "products1"
+		},
+		{
+			"source": "loans1",
+			"target": "loans"
+		},
+		{
+			"source": "products1",
+			"target": "products"
+		},
+		{
+			"source": "products",
+			"target": "branch-constraints"
+		},
+		{
+			"source": "loans",
+			"target": "assets"
+		},
+		{
+			"source": "assets",
+			"target": "position-constraints"
+		},
+		{
+			"source": "accounts1",
+			"target": "products1"
+		},
+		{
+			"source": "accounts1",
+			"target": "accounts"
+		},
+		{
+			"source": "accounts",
+			"target": "assets"
+		},
+		{
+			"source": "accounts2",
+			"target": "accounts"
+		},
+		{
+			"source": "accounts2",
+			"target": "products2"
+		},
+		{
+			"source": "products2",
+			"target": "products"
+		},
+		{
+			"source": "loans2",
+			"target": "products2"
+		},
+		{
+			"source": "loans2",
+			"target": "loans"
+		}
+	],
+	"associations": [
+		{
+			"source": "branch2",
+			"target": "products2",
+			"operations": [
+				"r",
+				"w"
+			]
+		},
+		{
+			"source": "branch1",
+			"target": "products1",
+			"operations": [
+				"r",
+				"w"
+			]
+		},
+		{
+			"source": "loan-officer",
+			"target": "loans",
+			"operations": [
+				"r",
+				"w"
+			]
+		},
+		{
+			"source": "hq",
+			"target": "products",
+			"operations": [
+				"online",
+				"offline"
+			]
+		},
+		{
+			"source": "data-steward",
+			"target": "assets",
+			"operations": [
+				"online",
+				"offline"
+			]
+		},
+		{
+			"source": "teller",
+			"target": "accounts",
+			"operations": [
+				"r",
+				"w"
+			]
+		}
+	]
+}

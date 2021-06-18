@@ -1,0 +1,1013 @@
+{
+  "nodes": [
+    {
+      "name": "tomtom",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "Research Admin",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "OSPInfo",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "DeptECE",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "TenureTrack Faculty",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "CoPIEligible",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "SPInfo",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "AcademicUnitsPolicyClass",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "Dean COE",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ApprovalInfo",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "ChairCS",
+      "type": "UA",
+      "properties": {
+        "chair": "CS"
+      }
+    },
+    {
+      "name": "bmChemUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "DeanCOEUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "Research Faculty",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "raUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "Budget Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "PIEligible",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "CoPI",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "RDApproval",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Dean COAS",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "PDSSections",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "PIEditable",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "liliana",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "BMApproval",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Dean",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "bmCSUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "rdUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "SPAdd",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Adjunct Faculty",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Compliance Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "EligibilityPolicyClass",
+      "type": "PC",
+      "properties": {
+        "default_ua": "HR",
+        "default_oa": "OSP"
+      }
+    },
+    {
+      "name": "PDSWhole",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "DeptPHY",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ChairApproval",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "CoPIInfo",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Signature Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "ChairCHEM",
+      "type": "UA",
+      "properties": {
+        "chair": "DeptCHEM"
+      }
+    },
+    {
+      "name": "irbUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "CostShare Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Chair",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Collaboration Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Proprietary Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "super_ua2",
+      "type": "UA",
+      "properties": {
+        "namespace": "super"
+      }
+    },
+    {
+      "name": "Tenured Faculty",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "samer",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "bmECEUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "super_ua1",
+      "type": "UA",
+      "properties": {
+        "namespace": "super"
+      }
+    },
+    {
+      "name": "ChairCSUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "Research Director",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "DeanCOASUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "bmPHYUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "ChairChemUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "DeanApproval",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "super_oa",
+      "type": "OA",
+      "properties": {
+        "namespace": "super"
+      }
+    },
+    {
+      "name": "EditingPolicyClass",
+      "type": "PC",
+      "properties": {
+        "default_ua": "SP",
+        "default_oa": "PDSSections"
+      }
+    },
+    {
+      "name": "Project Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "UnivCommitmentsInfo",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "DeptCS",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "SPEligible",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ChairECE",
+      "type": "UA",
+      "properties": {
+        "chair": "DeptECE"
+      }
+    },
+    {
+      "name": "NickC",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "COI",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "SP",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "BMCHEM",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "BMCS",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ChairECEUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "ChairPHY",
+      "type": "UA",
+      "properties": {
+        "chair": "DeptPHY"
+      }
+    },
+    {
+      "name": "super_O",
+      "type": "O",
+      "properties": {
+        "namespace": "super"
+      }
+    },
+    {
+      "name": "Audit Log",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "CoPIAdd",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Investigator Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "NonTenureTrack Faculty",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "PIInfo",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Teaching Faculty",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "vlad",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "IRBOfficer",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "super",
+      "type": "U",
+      "properties": {
+        "namespace": "super"
+      }
+    },
+    {
+      "name": "BMPHY",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "super_pc",
+      "type": "PC",
+      "properties": {
+        "namespace": "super"
+      }
+    },
+    {
+      "name": "DeptCHEM",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "RAApproval",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "CoPIEditable",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "ChairPHYUser",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "Clinic Faculty",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "nazmul",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "Additional Info",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "TenuredTenureTrack Faculty",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "AdministrationUnitsPolicyClass",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "Business Manager",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "PI",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "BMECE",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "IRBApproval",
+      "type": "OA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "Research Director",
+      "target": "AdministrationUnitsPolicyClass"
+    },
+    {
+      "source": "raUser",
+      "target": "Research Admin"
+    },
+    {
+      "source": "super_ua2",
+      "target": "super_pc"
+    },
+    {
+      "source": "vlad",
+      "target": "Adjunct Faculty"
+    },
+    {
+      "source": "SPEligible",
+      "target": "EligibilityPolicyClass"
+    },
+    {
+      "source": "Dean COE",
+      "target": "AcademicUnitsPolicyClass"
+    },
+    {
+      "source": "DeanApproval",
+      "target": "ApprovalInfo"
+    },
+    {
+      "source": "OSPInfo",
+      "target": "PDSSections"
+    },
+    {
+      "source": "super",
+      "target": "super_ua1"
+    },
+    {
+      "source": "super",
+      "target": "super_ua2"
+    },
+    {
+      "source": "Clinic Faculty",
+      "target": "NonTenureTrack Faculty"
+    },
+    {
+      "source": "bmPHYUser",
+      "target": "BMPHY"
+    },
+    {
+      "source": "RDApproval",
+      "target": "ApprovalInfo"
+    },
+    {
+      "source": "TenuredTenureTrack Faculty",
+      "target": "PIEligible"
+    },
+    {
+      "source": "UnivCommitmentsInfo",
+      "target": "CoPIEditable"
+    },
+    {
+      "source": "Research Faculty",
+      "target": "NonTenureTrack Faculty"
+    },
+    {
+      "source": "BMApproval",
+      "target": "ApprovalInfo"
+    },
+    {
+      "source": "IRBApproval",
+      "target": "ApprovalInfo"
+    },
+    {
+      "source": "ChairPHY",
+      "target": "BMPHY"
+    },
+    {
+      "source": "ApprovalInfo",
+      "target": "PDSSections"
+    },
+    {
+      "source": "ChairPHYUser",
+      "target": "ChairPHY"
+    },
+    {
+      "source": "DeanCOASUser",
+      "target": "Dean COAS"
+    },
+    {
+      "source": "PIEditable",
+      "target": "PDSSections"
+    },
+    {
+      "source": "super_O",
+      "target": "super_oa"
+    },
+    {
+      "source": "bmECEUser",
+      "target": "BMECE"
+    },
+    {
+      "source": "ChairChemUser",
+      "target": "ChairCHEM"
+    },
+    {
+      "source": "ChairECEUser",
+      "target": "ChairECE"
+    },
+    {
+      "source": "SPInfo",
+      "target": "Investigator Info"
+    },
+    {
+      "source": "Adjunct Faculty",
+      "target": "SPEligible"
+    },
+    {
+      "source": "DeptPHY",
+      "target": "ChairPHY"
+    },
+    {
+      "source": "CostShare Info",
+      "target": "CoPIEditable"
+    },
+    {
+      "source": "Dean",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "Tenured Faculty",
+      "target": "TenuredTenureTrack Faculty"
+    },
+    {
+      "source": "IRBOfficer",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "Research Admin",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "SP",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "Investigator Info",
+      "target": "PDSSections"
+    },
+    {
+      "source": "Research Admin",
+      "target": "AdministrationUnitsPolicyClass"
+    },
+    {
+      "source": "PDSWhole",
+      "target": "EligibilityPolicyClass"
+    },
+    {
+      "source": "Chair",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "DeanCOEUser",
+      "target": "Dean COE"
+    },
+    {
+      "source": "CoPIAdd",
+      "target": "CoPI"
+    },
+    {
+      "source": "Teaching Faculty",
+      "target": "NonTenureTrack Faculty"
+    },
+    {
+      "source": "ChairECE",
+      "target": "BMECE"
+    },
+    {
+      "source": "vlad",
+      "target": "DeptCS"
+    },
+    {
+      "source": "Dean COAS",
+      "target": "AcademicUnitsPolicyClass"
+    },
+    {
+      "source": "tomtom",
+      "target": "Clinic Faculty"
+    },
+    {
+      "source": "super_ua1",
+      "target": "super_pc"
+    },
+    {
+      "source": "super_ua1",
+      "target": "AcademicUnitsPolicyClass"
+    },
+    {
+      "source": "BMCHEM",
+      "target": "Dean COAS"
+    },
+    {
+      "source": "PIInfo",
+      "target": "Investigator Info"
+    },
+    {
+      "source": "CoPIEligible",
+      "target": "SPEligible"
+    },
+    {
+      "source": "CoPI",
+      "target": "SPAdd"
+    },
+    {
+      "source": "NonTenureTrack Faculty",
+      "target": "CoPIEligible"
+    },
+    {
+      "source": "DeptECE",
+      "target": "ChairECE"
+    },
+    {
+      "source": "DeptCS",
+      "target": "ChairCS"
+    },
+    {
+      "source": "rdUser",
+      "target": "Research Director"
+    },
+    {
+      "source": "samer",
+      "target": "Tenured Faculty"
+    },
+    {
+      "source": "CoPIEditable",
+      "target": "PDSSections"
+    },
+    {
+      "source": "tomtom",
+      "target": "DeptCHEM"
+    },
+    {
+      "source": "BMECE",
+      "target": "Dean COE"
+    },
+    {
+      "source": "NickC",
+      "target": "DeptPHY"
+    },
+    {
+      "source": "Research Director",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "liliana",
+      "target": "Teaching Faculty"
+    },
+    {
+      "source": "nazmul",
+      "target": "DeptCS"
+    },
+    {
+      "source": "Business Manager",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "COI",
+      "target": "CoPIEditable"
+    },
+    {
+      "source": "ChairCS",
+      "target": "BMCS"
+    },
+    {
+      "source": "PDSWhole",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "super_ua1",
+      "target": "EligibilityPolicyClass"
+    },
+    {
+      "source": "RAApproval",
+      "target": "ApprovalInfo"
+    },
+    {
+      "source": "nazmul",
+      "target": "Research Faculty"
+    },
+    {
+      "source": "PDSSections",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "SPAdd",
+      "target": "SP"
+    },
+    {
+      "source": "IRBOfficer",
+      "target": "AdministrationUnitsPolicyClass"
+    },
+    {
+      "source": "PIEligible",
+      "target": "CoPIEligible"
+    },
+    {
+      "source": "Proprietary Info",
+      "target": "CoPIEditable"
+    },
+    {
+      "source": "ChairCHEM",
+      "target": "BMCHEM"
+    },
+    {
+      "source": "liliana",
+      "target": "DeptCS"
+    },
+    {
+      "source": "ChairCSUser",
+      "target": "ChairCS"
+    },
+    {
+      "source": "Additional Info",
+      "target": "CoPIEditable"
+    },
+    {
+      "source": "Compliance Info",
+      "target": "CoPIEditable"
+    },
+    {
+      "source": "super_oa",
+      "target": "super_pc"
+    },
+    {
+      "source": "ChairApproval",
+      "target": "ApprovalInfo"
+    },
+    {
+      "source": "Collaboration Info",
+      "target": "CoPIEditable"
+    },
+    {
+      "source": "BMPHY",
+      "target": "Dean COAS"
+    },
+    {
+      "source": "BMCS",
+      "target": "Dean COE"
+    },
+    {
+      "source": "Research Faculty",
+      "target": "PIEligible"
+    },
+    {
+      "source": "CoPIInfo",
+      "target": "Investigator Info"
+    },
+    {
+      "source": "Project Info",
+      "target": "PIEditable"
+    },
+    {
+      "source": "Budget Info",
+      "target": "PIEditable"
+    },
+    {
+      "source": "irbUser",
+      "target": "IRBOfficer"
+    },
+    {
+      "source": "bmCSUser",
+      "target": "BMCS"
+    },
+    {
+      "source": "PI",
+      "target": "CoPIAdd"
+    },
+    {
+      "source": "Audit Log",
+      "target": "EditingPolicyClass"
+    },
+    {
+      "source": "NickC",
+      "target": "TenureTrack Faculty"
+    },
+    {
+      "source": "DeptCHEM",
+      "target": "ChairCHEM"
+    },
+    {
+      "source": "TenureTrack Faculty",
+      "target": "TenuredTenureTrack Faculty"
+    },
+    {
+      "source": "bmChemUser",
+      "target": "BMCHEM"
+    },
+    {
+      "source": "Signature Info",
+      "target": "CoPIEditable"
+    },
+    {
+      "source": "samer",
+      "target": "DeptECE"
+    }
+  ],
+  "associations": [
+    {
+      "source": "super_ua1",
+      "target": "SPEligible",
+      "operations": [
+        "*"
+      ]
+    },
+    {
+      "source": "super_ua1",
+      "target": "Dean COE",
+      "operations": [
+        "*"
+      ]
+    },
+    {
+      "source": "PI",
+      "target": "PDSWhole",
+      "operations": [
+        "Delete",
+        "Submit"
+      ]
+    },
+    {
+      "source": "super_ua1",
+      "target": "super_oa",
+      "operations": [
+        "*"
+      ]
+    },
+    {
+      "source": "PI",
+      "target": "Audit Log",
+      "operations": [
+        "ViewLog"
+      ]
+    },
+    {
+      "source": "super_ua1",
+      "target": "Research Admin",
+      "operations": [
+        "*"
+      ]
+    },
+    {
+      "source": "super_ua1",
+      "target": "Research Director",
+      "operations": [
+        "*"
+      ]
+    },
+    {
+      "source": "PI",
+      "target": "CoPI",
+      "operations": [
+        "delete-copi",
+        "add-copi"
+      ]
+    },
+    {
+      "source": "CoPI",
+      "target": "CoPIEditable",
+      "operations": [
+        "write"
+      ]
+    },
+    {
+      "source": "PIEligible",
+      "target": "PDSWhole",
+      "operations": [
+        "create"
+      ]
+    },
+    {
+      "source": "super_ua1",
+      "target": "PDSWhole",
+      "operations": [
+        "*"
+      ]
+    },
+    {
+      "source": "PI",
+      "target": "PIEditable",
+      "operations": [
+        "write"
+      ]
+    },
+    {
+      "source": "super_ua1",
+      "target": "Dean COAS",
+      "operations": [
+        "*"
+      ]
+    },
+    {
+      "source": "CoPI",
+      "target": "SP",
+      "operations": [
+        "delete-sp",
+        "add-sp"
+      ]
+    },
+    {
+      "source": "super_ua1",
+      "target": "IRBOfficer",
+      "operations": [
+        "*"
+      ]
+    },
+    {
+      "source": "SP",
+      "target": "PDSSections",
+      "operations": [
+        "read"
+      ]
+    }
+  ]
+}

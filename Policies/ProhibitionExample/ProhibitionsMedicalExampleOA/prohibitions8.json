@@ -1,0 +1,16 @@
+{
+  "prohibitions": [
+    {
+      "name": "prohibition1",
+      "subject": "RegisteredNurse",
+      "ops": [
+        "access"
+      ],
+      "intersection": true,
+      "containers": {
+        "MaximumCarePatients": false,
+        "ModerateCarePatients": true
+      }
+    }
+  ]
+}

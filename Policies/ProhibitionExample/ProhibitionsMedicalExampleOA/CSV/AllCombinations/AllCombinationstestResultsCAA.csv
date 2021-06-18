@@ -1,0 +1,7 @@
+"MutantName","Test1","Test2","Test3","Test4","Test5","Test6","MutantKilled?"
+"CAA1","Pass","Pass","Pass","Pass","Pass","Pass","No"
+"CAA2","Pass","Pass","Pass","Pass","Pass","Pass","No"
+"CAA3","Pass","Pass","Pass","Pass","Fail","Pass","Yes"
+"CAA4","Pass","Pass","Pass","Pass","Fail","Pass","Yes"
+"CAA5","Pass","Pass","Pass","Pass","Pass","Fail","Yes"
+"CAA6","Pass","Pass","Pass","Pass","Pass","Fail","Yes"

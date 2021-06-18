@@ -1,0 +1,185 @@
+label: LawUseCase Obligations
+rules:
+  - label: withdraw_case_info
+    event:
+      subject:
+        anyUser: 
+          - "LeadAttorneys"
+      operations:
+        - disapprove
+      target:
+        policyElements:
+          - name: Case3
+            type: OA
+    response:      
+      actions:
+        - grant:
+             subject:
+               name: Attorneys
+               type: UA
+             operations:
+               - accept
+               - refuse
+             target:
+               name: Case3
+               type: OA
+        - delete:
+            prohibitions:
+              - CreatedProhibition1                
+  - label: withdraw_case
+    event:
+      subject:
+        anyUser: 
+          - "LeadAttorneys"
+      operations:
+        - withdraw
+      target:
+        policyElements:
+          - name: Case3
+            type: OA
+    response:      
+      actions:
+        - delete:
+            nodes:
+              - name: Case3
+                type: OA              
+  - label: create_case_info
+    event:
+      subject:
+        anyUser: 
+          - "Attorneys"
+      operations:
+        - create
+      target:
+        policyElements:
+          - name: Case3
+            type: OA
+    response:      
+      actions:
+        - create:
+            - what:
+                name: Case3Info
+                type: O
+              where:
+                name: Case3
+                type: OA
+  - label: accept_case_LA
+    event:
+      subject:
+        anyUser: 
+          - "LeadAttorneys"
+      operations:
+        - accept
+      target:
+        policyElements:
+          - name: Case3Info
+            type: O
+    response:      
+      actions:
+        - deny:
+            label: CreatedProhibition1
+            subject: 
+              name: LeadAttorneys
+              type: UA
+            operations:
+              - "accept"
+            target:
+              containers:
+                - name: Case3
+                  type: OA                        
+       
+  - label: accept_refuse_case_A
+    event:
+      subject:
+        anyUser: 
+          - "Attorneys"
+      operations:
+        - accept
+        - refuse
+      target:
+        policyElements:
+          - name: Case3Info
+            type: O
+    response:      
+      actions:            
+        - grant:
+             subject:
+               name: LeadAttorneys
+               type: UA
+             operations:
+               - accept
+             target:
+               name: Case3
+               type: OA    
+        - delete:
+            associations:
+              - subject:
+                  name: Attorneys
+                  type: UA
+                target:
+                  name: Case3
+                  type: OA                 
+
+  - label: accept_case_Final
+    event:
+      subject:
+        process: finalAccept      
+      operations:
+        - accept
+      target:
+        policyElements:
+          - name: Case3Info
+            type: O
+    response:      
+      actions:            
+        - grant:
+             subject:
+               name: C-Suit
+               type: UA
+             operations:
+               - approve
+               - withdraw
+             target:
+               name: Case3
+               type: OA   
+
+  - label: approve_case
+    event:
+      subject:
+        anyUser: 
+          - "C-Suit"   
+      operations:
+        - approve
+      target:
+        policyElements:
+          - name: Case3Info
+            type: O
+    response:      
+      actions:            
+        - delete:
+            associations:
+              - subject:
+                  name: C-Suit
+                  type: UA
+                target:
+                  name: Case3
+                  type: OA         
+        - assign:
+            - what:
+                name: Case3
+                type: OA
+              where:
+                name: GeneralInfo
+                type: OA 
+        - delete:
+            assignment:
+              - what:
+                  name: Case3
+                  type: OA
+              - where:
+                  name: CasePolicy 
+                  type: PC
+        - delete:
+            nodes:
+              - name: Case3Info
+                type: OA                                                                         

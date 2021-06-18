@@ -1,0 +1,46 @@
+label: test
+rules:
+  - label: test_action_create
+    event:
+      subject:
+        - ua1
+      operations:
+        - ar1
+      target:
+        policyElements:
+          - name: at1
+            type: OA
+    response:
+      actions:
+        - create:
+            - what:
+                name: new OA
+                type: OA
+                properties:
+                  k: v
+              where:
+                name: at1
+                type: OA
+  - label: test_action_deny
+    event:
+      subject:
+        - ua2
+      operations:
+        - ar2
+      target:
+        policyElements:
+          - name: at2
+            type: OA
+        - deny:
+            label: deny
+            subject:
+              - ua1
+            operations:
+              - ar1
+            target:
+              complement: true
+              containers:
+                - name: Container1
+                  type: OA
+                - name: Container2
+                  type: OA

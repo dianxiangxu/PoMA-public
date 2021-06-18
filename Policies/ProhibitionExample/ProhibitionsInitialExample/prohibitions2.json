@@ -1,0 +1,15 @@
+{
+  "prohibitions": [
+    {
+      "name": "prohibition1",
+      "subject": "UA_test1",
+      "ops": [
+        "test"
+      ],
+      "intersection": false,
+      "containers": {
+        "Container1": true
+      }
+    }
+  ]
+}

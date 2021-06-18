@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "name": "OA2",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "O1",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "O2",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "UA1",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "UA3",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "UA2",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "U1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "U2",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "U3",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "OA1",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "PC1",
+      "type": "PC",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "UA3",
+      "target": "PC1"
+    },
+    {
+      "source": "UA2",
+      "target": "PC1"
+    },
+    {
+      "source": "OA1",
+      "target": "OA2"
+    },
+    {
+      "source": "U1",
+      "target": "UA1"
+    },
+    {
+      "source": "U2",
+      "target": "UA2"
+    },
+    {
+      "source": "U3",
+      "target": "UA3"
+    },
+    {
+      "source": "OA2",
+      "target": "PC1"
+    },
+    {
+      "source": "UA1",
+      "target": "UA2"
+    },
+    {
+      "source": "O1",
+      "target": "OA1"
+    },
+    {
+      "source": "O2",
+      "target": "OA2"
+    }
+  ],
+  "associations": [
+    {
+      "source": "UA1",
+      "target": "UA2",
+      "operations": [
+        "test"
+      ]
+    },
+    {
+      "source": "UA1",
+      "target": "UA3",
+      "operations": [
+        "add"
+      ]
+    },
+    {
+      "source": "UA1",
+      "target": "OA1",
+      "operations": [
+        "w"
+      ]
+    },
+    {
+      "source": "UA2",
+      "target": "OA2",
+      "operations": [
+        "r",
+        "x"
+      ]
+    }
+  ]
+}

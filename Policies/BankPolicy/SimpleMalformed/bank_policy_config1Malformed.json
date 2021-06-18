@@ -1,0 +1,206 @@
+{
+  "nodes": [
+    {
+      "name": "products2",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "a11",
+      "type": "O",
+      
+    {
+      "name": "a21",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "products1",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "loans",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "teller",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "position-contraints",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "l12",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "l11",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "products",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "accounts1",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "assets",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "accounts2",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "branch1",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "loans2",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "accounts",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "loans1",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "u1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "branch-contraints",
+      "type": "PC",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "accounts1",
+      "target": "accounts"
+    },
+    {
+      "source": "loans2",
+      "target": "products2"
+    },
+    {
+      "source": "loans1",
+      "target": "products1"
+    },
+    {
+      "source": "u1",
+      "target": "branch1"
+    },
+    {
+      "source": "loans",
+      "target": "assets"
+    },
+    {
+      "source": "l11",
+      "target": "loans1"
+    },
+    {
+      "source": "l12",
+      "target": "loans1"
+    },
+    {
+      "source": "assets",
+      "target": "position-contraints"
+    },
+    {
+      "source": "accounts2",
+      "target": "accounts"
+    },
+    {
+      "source": "a21",
+      "target": "accounts2"
+    },
+    {
+      "source": "branch1",
+      "target": "branch-contraints"
+    },
+    {
+      "source": "a11",
+      "target": "accounts1"
+    },
+    {
+      "source": "loans1",
+      "target": "loans"
+    },
+    {
+      "source": "loans2",
+      "target": "loans"
+    },
+    {
+      "source": "accounts1",
+      "target": "products1"
+    },
+    {
+      "source": "accounts2",
+      "target": "products2"
+    },
+    {
+      "source": "products1",
+      "target": "products"
+    },
+    {
+      "source": "accounts",
+      "target": "assets"
+    },
+    {
+      "source": "products",
+      "target": "branch-contraints"
+    },
+    {
+      "source": "u1",
+      "target": "teller"
+    },
+    {
+      "source": "products2",
+      "target": "products"
+    },
+    {
+      "source": "teller",
+      "target": "position-contraints"
+    }
+  ],
+  "associations": [
+    {
+      "source": "teller",
+      "target": "accounts",
+      "operations": [
+        "r",
+        "w"
+      ]
+    },
+    {
+      "source": "branch1",
+      "target": "products1",
+      "operations": [
+        "r",
+        "w"
+      ]
+    }
+  ]
+}

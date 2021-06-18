@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "name": "MaximumCarePatients",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "LicensedPracticalNurse",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "ModerateCarePatients",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "ClassificationPolicyClass",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "RegisteredNurse",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Doctor",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "CertifiedNurseAssistant",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Patient3",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Patient2",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Patient1",
+      "type": "OA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "Patient3",
+      "target": "MaximumCarePatients"
+    },
+    {
+      "source": "RegisteredNurse",
+      "target": "ClassificationPolicyClass"
+    },
+    {
+      "source": "ModerateCarePatients",
+      "target": "ClassificationPolicyClass"
+    },
+    {
+      "source": "LicensedPracticalNurse",
+      "target": "ClassificationPolicyClass"
+    },
+    {
+      "source": "Doctor",
+      "target": "ClassificationPolicyClass"
+    },
+    {
+      "source": "Patient1",
+      "target": "MaximumCarePatients"
+    },
+    {
+      "source": "Patient3",
+      "target": "ModerateCarePatients"
+    },
+    {
+      "source": "MaximumCarePatients",
+      "target": "ClassificationPolicyClass"
+    },
+    {
+      "source": "Patient2",
+      "target": "ModerateCarePatients"
+    },
+    {
+      "source": "CertifiedNurseAssistant",
+      "target": "ClassificationPolicyClass"
+    }
+  ],
+  "associations": [
+    {
+      "source": "RegisteredNurse",
+      "target": "MaximumCarePatients",
+      "operations": [
+        "access"
+      ]
+    },
+    {
+      "source": "Doctor",
+      "target": "ModerateCarePatients",
+      "operations": [
+        "access",
+        "write"
+      ]
+    },
+    {
+      "source": "LicensedPracticalNurse",
+      "target": "ModerateCarePatients",
+      "operations": [
+        "access"
+      ]
+    },
+    {
+      "source": "CertifiedNurseAssistant",
+      "target": "ModerateCarePatients",
+      "operations": [
+        "access"
+      ]
+    },
+    {
+      "source": "RegisteredNurse",
+      "target": "ModerateCarePatients",
+      "operations": [
+        "access"
+      ]
+    },
+    {
+      "source": "LicensedPracticalNurse",
+      "target": "MaximumCarePatients",
+      "operations": [
+        "access"
+      ]
+    },
+    {
+      "source": "CertifiedNurseAssistant",
+      "target": "MaximumCarePatients",
+      "operations": [
+        "access"
+      ]
+    },
+    {
+      "source": "Doctor",
+      "target": "MaximumCarePatients",
+      "operations": [
+        "access",
+        "write"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "name": "Criminal",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Type",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Civil",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "ValueTypePolicy",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "lessequal5000",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "more5000",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Value",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Felony",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Subtype",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "Misdemeanor",
+      "type": "OA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "Type",
+      "target": "ValueTypePolicy"
+    },
+    {
+      "source": "more5000",
+      "target": "Value"
+    },
+    {
+      "source": "Civil",
+      "target": "Type"
+    },
+    {
+      "source": "Misdemeanor",
+      "target": "Subtype"
+    },
+    {
+      "source": "Value",
+      "target": "ValueTypePolicy"
+    },
+    {
+      "source": "Felony",
+      "target": "Subtype"
+    },
+    {
+      "source": "Criminal",
+      "target": "Type"
+    },
+    {
+      "source": "lessequal5000",
+      "target": "Value"
+    },
+    {
+      "source": "Subtype",
+      "target": "ValueTypePolicy"
+    }
+  ],
+  "associations": []
+}

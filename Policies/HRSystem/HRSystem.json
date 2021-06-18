@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "name": "LeaveRecord",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "HRManager",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Engineer",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "Tom",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "EngineerManager",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "John",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "Cris",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "HRSystem",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "LeaveRequest1",
+      "type": "O",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "LeaveRecord",
+      "target": "HRSystem"
+    },
+    {
+      "source": "LeaveRequest1",
+      "target": "LeaveRecord"
+    },
+    {
+      "source": "John",
+      "target": "EngineerManager"
+    },
+    {
+      "source": "EngineerManager",
+      "target": "Engineer"
+    },
+    {
+      "source": "Tom",
+      "target": "Engineer"
+    },
+    {
+      "source": "HRManager",
+      "target": "HRSystem"
+    },
+    {
+      "source": "Cris",
+      "target": "HRManager"
+    },
+    {
+      "source": "Engineer",
+      "target": "HRSystem"
+    }
+  ],
+  "associations": [
+    {
+      "source": "Engineer",
+      "target": "LeaveRecord",
+      "operations": [
+        "read"
+      ]
+    },
+    {
+      "source": "HRManager",
+      "target": "Engineer",
+      "operations": [
+        "hire"
+      ]
+    },
+    {
+      "source": "EngineerManager",
+      "target": "LeaveRecord",
+      "operations": [
+        "approve",
+        "disapprove"
+      ]
+    }
+  ]
+}
